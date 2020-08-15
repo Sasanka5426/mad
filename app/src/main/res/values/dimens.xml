@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_text_size">25sp</dimen>
+    <dimen name="button_size_1">80dp</dimen>
+    <dimen name="topic2_sizeS">30sp</dimen>
+    <dimen name="normal_buttonS">65dp</dimen>
+</resources>
