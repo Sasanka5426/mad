@@ -9,19 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".addNewPackageAdmin">
-
-        </activity>
-        <activity android:name=".updatePackageAdmin">
-
-        </activity>
-        <activity android:name=".addNewMemberAdmin"></activity>
-        <activity android:name=".manageMemberAdmin">
+        <activity android:name=".packagesAdmin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".addNewPackageAdmin"></activity>
+        <activity android:name=".updatePackageAdmin"></activity>
+        <activity android:name=".addNewMemberAdmin" />
+        <activity android:name=".manageMemberAdmin">
+
         </activity>
         <activity android:name=".GymAdmin" />
     </application>
