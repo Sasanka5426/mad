@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".manageMemberAdmin">
+    tools:context=".packagesAdmin">
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/linearLayout6"
         android:layout_width="409dp"
         android:layout_height="80dp"
         android:orientation="vertical"
@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@string/manage_member"
+            android:text="@string/packages"
             android:textAlignment="center"
             android:textColor="@color/button_colorGoldS"
             android:textSize="@dimen/topic2_sizeS"
@@ -31,114 +31,48 @@
     </LinearLayout>
 
     <TableRow
-        android:id="@+id/tableRow"
+        android:id="@+id/tableRow2"
         android:layout_width="409dp"
-        android:layout_height="80dp"
+        android:layout_height="100dp"
         android:layout_marginTop="30dp"
-        android:background="#D1D1D1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0.0">
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="20dp"
-            android:text="Member 1"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="@dimen/mamberNameTextSizeS"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="100dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="144dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/button_colorS"
-            android:text="@string/delete"
-            android:textAlignment="center"
-            android:textColor="@color/text_color1S"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-    </TableRow>
-
-    <TableRow
-        android:id="@+id/tableRow3"
-        android:layout_width="409dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="20dp"
         android:background="@color/listTableS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableRow"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="20dp"
-            android:text="Member 2"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textSize="@dimen/mamberNameTextSizeS"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="100dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="144dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/button_colorS"
-            android:text="@string/delete"
-            android:textAlignment="center"
-            android:textColor="@color/text_color1S"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-    </TableRow>
-
-    <TableRow
-        android:id="@+id/tableRow4"
-        android:layout_width="409dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/listTableS"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableRow3"
-        app:layout_constraintVertical_bias="0.0">
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="20dp"
-            android:text="Member 3"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="Package 1"
             android:textAlignment="center"
             android:textColor="@color/text_color2S"
             android:textSize="@dimen/mamberNameTextSizeS"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/button11"
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="144dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/text_color1S"
+            android:text="@string/update"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
             android:background="@color/button_colorS"
             android:text="@string/delete"
             android:textAlignment="center"
@@ -148,36 +82,48 @@
     </TableRow>
 
     <TableRow
-        android:id="@+id/tableRow5"
+        android:id="@+id/tableRow6"
         android:layout_width="409dp"
-        android:layout_height="80dp"
+        android:layout_height="100dp"
         android:layout_marginTop="20dp"
         android:background="@color/listTableS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableRow4"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow2"
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="20dp"
-            android:text="Member 4"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="Package 2"
             android:textAlignment="center"
             android:textColor="@color/text_color2S"
             android:textSize="@dimen/mamberNameTextSizeS"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/button13"
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="144dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/text_color1S"
+            android:text="@string/update"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
             android:background="@color/button_colorS"
             android:text="@string/delete"
             android:textAlignment="center"
@@ -186,5 +132,79 @@
             android:textStyle="bold" />
     </TableRow>
 
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="409dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/listTableS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow6"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="Package 3"
+            android:textAlignment="center"
+            android:textColor="@color/text_color2S"
+            android:textSize="@dimen/mamberNameTextSizeS"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/text_color1S"
+            android:text="@string/update"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/button_colorS"
+            android:text="@string/delete"
+            android:textAlignment="center"
+            android:textColor="@color/text_color1S"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="143dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow8"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/normal_buttonS"
+            android:layout_marginTop="30dp"
+            android:background="@color/button_colorS"
+            android:text="Add New Package"
+            android:textAlignment="center"
+            android:textColor="@color/text_color1S"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

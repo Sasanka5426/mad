@@ -4,78 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".updatePackageAdmin">
+    tools:context=".adminProfile">
 
     <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="409dp"
-        android:layout_height="80dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Update Package"
-            android:textAlignment="center"
-            android:textColor="@color/button_colorGoldS"
-            android:textSize="@dimen/topic2_sizeS"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="409dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Admin Profile"
+            android:textAlignment="center"
+            android:textColor="@color/button_colorGoldS"
+            android:textSize="@dimen/topic2_sizeS"
+            android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/editTextTextPersonName6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="50dp"
             android:layout_marginEnd="20dp"
             android:ems="10"
-            android:hint="Package Name"
+            android:hint="Name"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal2"
+            android:id="@+id/editTextTextEmailAddress2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:ems="10"
-            android:hint="Reduction%"
-            android:inputType="numberDecimal" />
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/editTextTextMultiLine3"
+            android:id="@+id/editTextTextPassword"
             android:layout_width="match_parent"
-            android:layout_height="180dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:ems="10"
-            android:gravity="start|top"
-            android:hint="Description"
-            android:inputType="textMultiLine" />
+            android:inputType="textPassword"
+            android:text="Password" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/button25"
             android:layout_width="match_parent"
             android:layout_height="@dimen/normal_buttonS"
             android:layout_marginTop="50dp"

@@ -11,4 +11,5 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     <string name="save_change">Save Changes</string>
+    <string name="update_fee">Update Fee</string>
 </resources>
