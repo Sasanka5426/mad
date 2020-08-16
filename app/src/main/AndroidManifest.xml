@@ -9,22 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".beforeDeleteAdmin">
+        <activity android:name=".adminProfile">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AdminHome"></activity>
-        <activity android:name=".packagesAdmin"></activity>
-        <activity android:name=".addNewPackageAdmin">
+        <activity android:name=".UpdateFeeAdmin">
 
         </activity>
-        <activity android:name=".updatePackageAdmin"></activity>
-        <activity android:name=".addNewMemberAdmin"></activity>
-        <activity android:name=".manageMemberAdmin"></activity>
-        <activity android:name=".GymAdmin"></activity>
+        <activity android:name=".beforeDeleteAdmin"></activity>
+        <activity android:name=".AdminHome" />
+        <activity android:name=".packagesAdmin" />
+        <activity android:name=".addNewPackageAdmin" />
+        <activity android:name=".updatePackageAdmin" />
+        <activity android:name=".addNewMemberAdmin" />
+        <activity android:name=".manageMemberAdmin" />
+        <activity android:name=".GymAdmin" />
     </application>
 
 </manifest>
