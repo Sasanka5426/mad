@@ -6,29 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".AdminHome">
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="165dp"
-        android:layout_height="157dp"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027"
-        app:srcCompat="@drawable/mad_logo" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/mad_logo2" />
 
     <LinearLayout
         android:layout_width="409dp"
-        android:layout_height="443dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:layout_constraintVertical_bias="0.095">
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Welcome Admin"
@@ -45,7 +47,7 @@
             android:background="@color/button_colorS"
             android:text="Supplement Store"
             android:textAlignment="center"
-            android:textColor="@color/text_color1S"
+            android:textColor="#FFFFFF"
             android:textSize="@dimen/button_text_size"
             android:textStyle="bold" />
 
@@ -80,7 +82,6 @@
             android:layout_marginTop="30dp"
             android:background="@color/button_colorS"
             android:text="Logout"
-            android:textAlignment="center"
             android:textColor="@color/text_color1S"
             android:textSize="18sp"
             android:textStyle="bold" />
