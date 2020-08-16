@@ -25,7 +25,7 @@
             android:layout_marginTop="20dp"
             android:text="Update Package"
             android:textAlignment="center"
-            android:textColor="#000000"
+            android:textColor="@color/button_colorGoldS"
             android:textSize="@dimen/topic2_sizeS"
             android:textStyle="bold" />
     </LinearLayout>
@@ -44,28 +44,34 @@
             android:id="@+id/editTextTextPersonName4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
             android:ems="10"
-            android:hint="   Package Name"
+            android:hint="Package Name"
             android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/editTextNumberDecimal2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
             android:ems="10"
-            android:hint="   Reduction%"
+            android:hint="Reduction%"
             android:inputType="numberDecimal" />
 
         <EditText
             android:id="@+id/editTextTextMultiLine3"
             android:layout_width="match_parent"
             android:layout_height="180dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
             android:ems="10"
             android:gravity="start|top"
-            android:hint="   Description"
+            android:hint="Description"
             android:inputType="textMultiLine" />
 
         <Button
